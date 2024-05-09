@@ -1,0 +1,872 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url(../Quicksand-Regular.ttf);
+}
+@font-face {
+  font-family: "TitiliumWeb";
+  src: url(../TitilliumWeb-Regular.ttf);
+}
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #301A49 0%, #264989 100%);
+  width: 1660px;
+}
+
+.navBar {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 230px;
+  gap: 30px;
+}
+.navBar ul {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  padding: 0px;
+  gap: 30px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.navBar ul li {
+  padding: 15px;
+  display: inline-block;
+  color: #fff;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+}
+.navBar ul li a {
+  text-decoration: none;
+  color: white;
+}
+.navBar ul .contact {
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "TitiliumWeb";
+  background-color: yellow;
+  border: 2px solid #F3E401;
+  border-radius: 20px;
+  letter-spacing: 0.02em;
+}
+.navBar ul .contact .contact-tekst {
+  color: #301A49;
+}
+.navBar ul .contact:hover {
+  background-color: #301A49;
+}
+.navBar ul .contact:hover .contact-tekst {
+  color: #fff;
+}
+
+.div1 {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  height: 500px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.div1 .div1-sub1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 50px 0px 230px;
+  width: auto;
+  height: 269px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.div1 .div1-sub1 .btn1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px 20px;
+  gap: 10px;
+  font-family: "TitiliumWeb";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  width: 135px;
+  height: 45px;
+  background: #01EEF6;
+  border: 2px solid #01EEF6;
+  box-shadow: 0px 0px 10px rgba(1, 238, 246, 0.65);
+  border-radius: 20px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+.div1 .div1-sub1 .h1 {
+  font-family: "TitiliumWeb";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  order: 0;
+}
+.div1 .div1-sub1 .p1 {
+  font-family: "Quicksand";
+  font-size: 50px;
+  height: 112px;
+  width: 550px;
+  font-weight: 700;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.div1 .div1-sub1 .p2 {
+  width: 550px;
+  height: 28px;
+  font-family: "TitiliumWeb";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.div1 .div1-sub2 {
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.div2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 100px 230px;
+  gap: 10px;
+  height: 654px;
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.div2 .div2-sub1 {
+  margin-top: 60px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 600px;
+  height: 221px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.div2 .div2-sub1 .h1 {
+  font-family: "TitiliumWeb";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
+.div2 .div2-sub1 .p1 {
+  font-family: "Quicksand";
+  font-size: 50px;
+  font-weight: 700;
+}
+.div2 .div2-sub1 .p2 {
+  font-family: "TitiliumWeb";
+  font-style: normal;
+  font-weight: 400;
+}
+.div2 .div2-sub1 .btn1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px 20px;
+  gap: 10px;
+  font-family: "TitiliumWeb";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  width: 135px;
+  height: 45px;
+  background: #01EEF6;
+  border: 2px solid #01EEF6;
+  box-shadow: 0px 0px 10px rgba(1, 238, 246, 0.65);
+  border-radius: 20px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  color: #301A49;
+}
+.div2 .div2-sub2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 600px;
+  height: 454px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.div2 .div2-sub2 .div2-sub2-1, .div2 .div2-sub2 .div2-sub2-2 {
+  font-family: "Quicksand";
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 600px;
+  height: auto;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.div2 .div2-sub2 .div2-sub2-1 .kocka1, .div2 .div2-sub2 .div2-sub2-2 .kocka1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 10px;
+  width: 290px;
+  height: 217px;
+  background: #301A49;
+  border-radius: 5px;
+  flex: none;
+  flex-grow: 0;
+  gap: 0px;
+  order: 0;
+  height: 240px;
+}
+.div2 .div2-sub2 .div2-sub2-1 .kocka1 .icon, .div2 .div2-sub2 .div2-sub2-2 .kocka1 .icon {
+  color: #F3E401;
+  font-size: 40px;
+  font-weight: 400;
+}
+.div2 .div2-sub2 .div2-sub2-1 .kocka1 .icon .readMore, .div2 .div2-sub2 .div2-sub2-2 .kocka1 .icon .readMore {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  width: 250px;
+  height: 21px;
+  flex: none;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.div2 .div2-sub2 .div2-sub2-1 .kocka1 .icon .arrow, .div2 .div2-sub2 .div2-sub2-2 .kocka1 .icon .arrow {
+  padding-top: 10px;
+}
+.div2 .div2-sub2 .div2-sub2-1 .kocka2, .div2 .div2-sub2 .div2-sub2-2 .kocka2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 10px;
+  width: 290px;
+  height: 217px;
+  background: #301A49;
+  border-radius: 5px;
+  flex: none;
+  flex-grow: 0;
+  height: 240px;
+  order: 1;
+  gap: 0px;
+}
+.div2 .div2-sub2 .div2-sub2-1 .kocka2 .icon, .div2 .div2-sub2 .div2-sub2-2 .kocka2 .icon {
+  color: #F3E401;
+  font-size: 40px;
+  font-weight: 400;
+}
+.div2 .div2-sub2 .div2-sub2-1 .kocka2 .icon .readMore, .div2 .div2-sub2 .div2-sub2-2 .kocka2 .icon .readMore {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  width: 250px;
+  height: 21px;
+  flex: none;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.div2 .div2-sub2 .div2-sub2-1 .kocka2 .icon .readMore .arrow, .div2 .div2-sub2 .div2-sub2-2 .kocka2 .icon .readMore .arrow {
+  padding-top: 10px;
+}
+
+.div3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  width: 1660px;
+  height: 570px;
+  background: #fff;
+  flex: none;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.div3 .div3-sub-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 830px;
+  height: 309px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.div3 .div3-sub-frame .div3-sub {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  padding-left: 60px;
+  gap: 0px;
+  width: 550px;
+  height: 309px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.div3 .div3-sub-frame .div3-sub h1 {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 56px;
+  color: #301A49;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.div3 .div3-sub-frame .div3-sub p {
+  font-family: "TitiliumWeb";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #301A49;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.div3 .div3-sub-frame .div3-sub button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px 20px;
+  gap: 10px;
+  border-color: #F3E401;
+  width: 130px;
+  height: 45px;
+  background: #F3E401;
+  border-radius: 20px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+.div3 .div3-sub-frame .div3-sub button span {
+  font-family: "TitiliumWeb";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: #301A49;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.div4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  width: 1660px;
+  height: 570px;
+  background: #FFFFFF;
+  flex: none;
+  order: 4;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.div4 .div4-sub-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding-bottom: 102px;
+  width: 830px;
+  height: 365px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.div4 .div4-sub-frame .div4-sub {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 230px;
+  padding-right: 50px;
+  gap: 10px;
+  width: 550px;
+  height: 365px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.div4 .div4-sub-frame .div4-sub h1 {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 56px;
+  color: #301A49;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.div4 .div4-sub-frame .div4-sub p {
+  font-family: "TitiliumWeb";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #301A49;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.div4 .div4-sub-frame .div4-sub button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px 20px;
+  gap: 10px;
+  border-color: #F3E401;
+  background: #F3E401;
+  border-radius: 20px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+.div4 .div4-sub-frame .div4-sub button span {
+  font-family: "TitiliumWeb";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: #301A49;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.div4 .img {
+  background-image: url(../img/3.png);
+  width: 830px;
+  height: 570px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.div5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 100px 0px;
+  width: 1660px;
+  height: 865px;
+  flex: none;
+  order: 5;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.div5 .div5-sub1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1660px;
+  height: 100px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.div5 .div5-sub1 .div5-sub1-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 230px;
+  width: 550px;
+  height: 100px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.div5 .div5-sub1 .div5-sub1-1 h3 {
+  font-family: "TitiliumWeb";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.div5 .div5-sub1 .div5-sub1-1 h1 {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 56px;
+  color: #fff;
+}
+.div5 .div5-sub1 .div5-sub1-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-right: 230px;
+  gap: 30px;
+  width: 210px;
+  height: 90px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.div5 .div5-sub1 .div5-sub1-2 button {
+  background: local;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 90px;
+  height: 90px;
+  border: 3px solid #F3E401;
+  border-radius: 45px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #fff;
+}
+.div5 .div5-sub1 .div5-sub1-2 button:hover {
+  background: #F3E401;
+  color: #301A49;
+}
+.div5 .div5-sub2-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-top: 50px;
+  gap: 30px;
+  width: 1660px;
+  height: 520px;
+  overflow-x: scroll;
+}
+.div5 .carousel {
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 30px;
+  padding-left: 50px;
+}
+.div5 .carousel img {
+  height: 420px;
+  width: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 5px solid #01EEF6;
+  filter: drop-shadow(0px 0px 30px rgba(1, 238, 246, 0.85));
+  border-radius: 15px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.div5 .button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  width: 1660px;
+  height: 45px;
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.div5 .button button {
+  box-sizing: border-box;
+  align-items: center;
+  gap: 10px;
+  width: 100px;
+  height: 45px;
+  border: 2px solid #F3E401;
+  border-radius: 20px;
+  background: #F3e401;
+  color: #301A49;
+  font-family: "TitiliumWeb";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+}
+.div5 .button button:hover {
+  background: local;
+  color: #fff;
+}
+
+.div6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 230px 100px;
+  gap: 80px;
+  width: 1660px;
+  height: 892px;
+  flex: none;
+  order: 6;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.div6 .div6-sub1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  width: 1200px;
+  height: 100px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.div6 .div6-sub1 h3 {
+  font-family: "TitiliumWeb";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.div6 .div6-sub1 h1 {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 56px;
+  color: #fff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.div6 .div6-sub2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  padding-bottom: 100px;
+  width: 1200px;
+  height: 662px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.div6 .div6-sub2 .rows {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 0px;
+  padding-bottom: 15px;
+  width: 1200px;
+  height: 62px;
+  flex: none;
+}
+.div6 .div6-sub2 .rows p {
+  font-family: "TitiliumWeb";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.div6 .div6-sub2 .rows p span {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 26px;
+  color: #01EEF6;
+}
+.div6 .div6-sub2 .rows p #a {
+  padding-left: 887px;
+}
+.div6 .div6-sub2 .rows p #b {
+  padding-left: 983px;
+}
+.div6 .div6-sub2 .rows p #c {
+  padding-left: 870px;
+}
+.div6 .div6-sub2 .rows p #d {
+  padding-left: 828px;
+}
+.div6 .div6-sub2 .rows p #e {
+  padding-left: 868px;
+}
+.div6 .div6-sub2 .rows p #f {
+  padding-left: 726px;
+}
+.div6 .div6-sub2 .rows p #g {
+  padding-left: 818px;
+}
+.div6 .div6-sub2 hr {
+  width: 1200px;
+  height: 2px;
+  background: #F3E401;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.div6 .div6-sub2 .textdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  width: 1200px;
+  height: 235px;
+  background: #301A49;
+  align-self: stretch;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.div6 .div6-sub2 .textdiv p {
+  font-family: "TitiliumWeb";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  padding: 20px;
+  padding-top: 0px;
+  color: #fff;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  width: 1660px;
+  height: 143.15px;
+  flex: none;
+  order: 7;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.footer .div1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1660px;
+  height: 95.15px;
+  background: rgba(48, 26, 73, 0.3);
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.footer .div1 img {
+  width: 160px;
+  height: 35.15px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.footer .div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 230px;
+  padding-bottom: 0px;
+  width: 1200px;
+  height: 48px;
+  background: #301A49;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.footer .div2 .p {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 252px;
+  height: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.footer .div2 .div2-sub2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 88px;
+  height: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}/*# sourceMappingURL=style.css.map */
